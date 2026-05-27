@@ -24,3 +24,13 @@ ExpenseEase is a modern expense tracking and budget management web application t
 ```bash
 npm install
 npm run dev
+
+🚀 How to Run the Project
+Clone the repository
+git clone https://github.com/Ishant-02/amazon-clone.git
+Open index.html in your browser
+
+👨‍💻 Author
+Ishant Shukla
+GitHub: https://github.com/Ishant-02
+LinkedIn: https://www.linkedin.com/in/ishant-shukla-0160bb2a2
