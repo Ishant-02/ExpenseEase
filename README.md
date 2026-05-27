@@ -1,16 +1,26 @@
-# React + Vite
+# ExpenseEase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ExpenseEase is a modern expense tracking and budget management web application that helps users monitor spending, manage finances, and analyze expenses efficiently.
 
-Currently, two official plugins are available:
+## Features
+- Seamlessly add and manage expenses
+- Categorize monthly income and expenditures
+- Visualize financial data using bar graphs and pie charts
+- AI-powered insights for smarter financial decisions
+- Responsive and intuitive user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- HTML
+- CSS
+- Node.JS
+- MongoDB
+- Vite
+- JavaScript
+- CSS
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
