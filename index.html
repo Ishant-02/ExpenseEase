@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ExpenseEase Pro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>ExpenseEase</h1>
+
+    <select id="monthFilter"></select>
+
+    <div class="top-section">
+
+        <div class="left">
+            <div class="card">
+                <h3>Balance</h3>
+                <h2 id="balance">₹0</h2>
+            </div>
+
+            <div class="card">
+                <h3>Add Transaction</h3>
+                <form id="form">
+                    <input type="text" id="text" placeholder="Description" required>
+                    <input type="number" id="amount" placeholder="Enter amount" required>
+
+                    <select id="type">
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+
+                    <select id="category"></select>
+
+                    <input type="date" id="date" required>
+
+                    <button type="submit">Add Transaction</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h3>AI Insights 🤖</h3>
+                <button id="aiBtn">Generate Insights</button>
+                <p id="aiResult"></p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="card">
+                <h3>Expense Distribution</h3>
+                <canvas id="pieChart"></canvas>
+            </div>
+
+            <div class="card">
+                <h3>Category Overview</h3>
+                <canvas id="barChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h3>Transactions</h3>
+        <ul id="list"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
